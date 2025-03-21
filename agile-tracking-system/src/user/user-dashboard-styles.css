@@ -1,0 +1,69 @@
+.user-dashboard {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .user-dashboard h1,
+  .user-dashboard h2,
+  .user-dashboard h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-info {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .team-members {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .team-members li {
+    margin-bottom: 5px;
+  }
+  
+  .user-actions {
+    margin-top: 20px;
+  }
+  
+  .user-actions button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .user-actions button.logout-button {
+    background-color: red;
+  }
+  
+  .details-panel,
+  .profile-panel {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }

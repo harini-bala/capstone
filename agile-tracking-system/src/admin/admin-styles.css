@@ -1,0 +1,163 @@
+.admin-dashboard {
+  padding: 30px;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-dashboard h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-dashboard h2 {
+  font-size: 1.8em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.admin-dashboard h3 {
+  font-size: 1.4em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.admin-dashboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-dashboard li {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.admin-dashboard th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.admin-dashboard input[type="text"],
+.admin-dashboard input[type="date"],
+.admin-dashboard select {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.admin-dashboard button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 5px;
+}
+
+.admin-dashboard button:hover {
+  background-color: #0056b3;
+}
+
+.admin-dashboard .logout-button {
+  background-color: #dc3545;
+  color: white;
+  float: right;
+  margin-top: -50px;
+}
+
+.admin-dashboard .logout-button:hover {
+  background-color: #c82333;
+}
+
+/* Form Element Alignment */
+.admin-dashboard .assign-tasks-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.admin-dashboard .assign-tasks-form label {
+  grid-column: 1 / -1;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Table Styling */
+.admin-dashboard table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admin-dashboard table th {
+  background-color: #e0e0e0;
+}
+
+.admin-dashboard table th,
+.admin-dashboard table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Button Styling */
+.admin-dashboard button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Spacing and Margins */
+.admin-dashboard > div {
+  margin-bottom: 20px;
+}
+
+/* Readability */
+.admin-dashboard h1 {
+  font-size: 2em;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .admin-dashboard .assign-tasks-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Edit Button Styling */
+.admin-dashboard .edit-button {
+  padding: 1px 2px; /* Further reduced padding */
+  font-size: 0.5em; /* Further reduced font size */
+  line-height: 1; /* Adjust line-height to fit smaller size */
+  border: 1px solid #007bff; /* Add a border */
+}
+.admin-dashboard .delete-button {
+  padding: 1px 2px; /* Further reduced padding */
+  font-size: 0.75em; /* Further reduced font size */
+  line-height: 1; /* Adjust line-height to fit smaller size */
+  border: 1px solid #007bff; /* Add a border */
+}
+/* Team Members List Styling */
+.admin-dashboard ul li {
+  border: 1px solid #ddd; /* Add a border to each list item */
+  padding: 8px; /* Add padding for spacing */
+  margin-bottom: 5px; /* Add margin between list items */
+  background-color: #f9f9f9; /* Add a light background color */
+}

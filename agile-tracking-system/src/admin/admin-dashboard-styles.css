@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  background-color: #F7F5FF; /* Soft pastel lilac */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar/Header */
+.navbar {
+  background-color: #3A3D98; /* Deep Midnight Blue */
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+  background: linear-gradient(to right, #A084E8, #C7B3F7);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #8469D4, #B59BF0);
+  transform: scale(1.05);
+}
+
+/* Logout Button */
+.logout-btn {
+  background: linear-gradient(to right, #FF8A80, #FF5252);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  float: right;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(to right, #E57373, #FF3D00);
+}
+
+/* Card/Container Styling */
+.card, .table-container {
+  background-color: #E0D7FF; /* Slightly deeper lilac for contrast */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.table th {
+  background: linear-gradient(to right, #B59BF0, #D3C5FF);
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Input Fields */
+input, select {
+  width: 250px;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Task Section Styling */
+.task-section {
+  background: #E0D7FF;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #3A3D98;
+  color: white;
+  margin-top: 20px;
+}

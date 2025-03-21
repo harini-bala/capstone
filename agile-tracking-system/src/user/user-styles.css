@@ -1,0 +1,71 @@
+/* src/components/user/user-styles.css */
+
+.login-container,
+.signup-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-container h2,
+.signup-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container div,
+.signup-container div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.login-container label,
+.signup-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input,
+.signup-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-container button,
+.signup-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-container button:hover,
+.signup-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container p,
+.signup-container p {
+  margin-top: 15px;
+}
